@@ -42,6 +42,7 @@ def main():
     print(f"===== Simple Calculator =====")
 
     # Ask the user for sample input    
+    print("Do not enter a non numerical input or the program will crash")
     num1 = float(input("Enter the first number: "))
     num2 = float(input("Enter the second number: "))
     operation = input("Enter the operation (add, subtract, multiply, divide): ").strip().lower()
