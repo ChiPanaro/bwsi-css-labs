@@ -45,6 +45,7 @@ def main():
     print("Do not enter a non numerical input or the program will crash")
     num1 = float(input("Enter the first number: "))
     num2 = float(input("Enter the second number: "))
+    print("Only enter the provided operations or else the program will crash")
     operation = input("Enter the operation (add, subtract, multiply, divide): ").strip().lower()
 
     # Perform the calculation and display the result
